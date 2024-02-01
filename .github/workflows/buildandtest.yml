@@ -21,6 +21,9 @@ jobs:
       with:
         dotnet-version: '7.0'
 
+    - name: Change to the Project Directory
+      run: cd ClassLibraryProjects
+
     - name: Restore dependencies
       run: dotnet restore
 
@@ -38,6 +41,9 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '7.0'
+
+    - name: Change to the Project Directory
+      run: cd ClassLibraryProjects
 
     - name: Restore dependencies
       run: dotnet restore
