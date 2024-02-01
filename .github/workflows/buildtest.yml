@@ -23,3 +23,6 @@ jobs:
         cd ClassLibraryProjects/StringLibraryTest  
         dotnet restore
         dotnet build --configuration Release
+
+    - name: Run Tests
+      run: dotnet test --configuration Release --no-build
