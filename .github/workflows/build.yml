@@ -20,6 +20,6 @@ jobs:
 
     - name: Restore dependencies and Build
       run: |
-        cd ClassLibraryProjects/StringLibraryTest/StringLibraryTest.csproj
+        cd ClassLibraryProjects
         dotnet restore
         dotnet build --configuration Release
