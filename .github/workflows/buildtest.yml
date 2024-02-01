@@ -25,4 +25,6 @@ jobs:
         dotnet build --configuration Release
 
     - name: Run Tests
-      run: dotnet test --configuration Release --no-build
+      run: |
+        cd ClassLibraryProjects/StringLibraryTest 
+        dotnet test --configuration Release --no-build
