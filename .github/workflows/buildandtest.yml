@@ -22,7 +22,7 @@ jobs:
         dotnet-version: '3.1'
 
     - name: Change to the Project Directory
-      run: cd ClassLibraryProjects/StringLibrary
+      run: cd ClassLibraryProjects/StringLibrary/StringLibrary.csproj
 
     - name: Restore dependencies
       run: dotnet restore
@@ -43,7 +43,7 @@ jobs:
         dotnet-version: '3.1'
 
     - name: Change to the Project Directory
-      run: cd ClassLibraryProjects/StringLibrary
+      run: cd ClassLibraryProjects/StringLibrary/StringLibrary.csproj
 
     - name: Restore dependencies
       run: dotnet restore
