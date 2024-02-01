@@ -22,7 +22,7 @@ jobs:
         dotnet-version: '7.0'
 
     - name: Change to the Project Directory
-      run: cd ClassLibraryProjects/StringLibraryTest
+      run: cd ClassLibraryProjects/StringLibraryTest/UnitTest1.cs
 
     - name: Restore dependencies
       run: dotnet restore
@@ -43,7 +43,7 @@ jobs:
         dotnet-version: '7.0'
 
     - name: Change to the Project Directory
-      run: cd ClassLibraryProjects/StringLibraryTest
+      run: cd ClassLibraryProjects/StringLibraryTest/UnitTest1.cs
 
     - name: Restore dependencies
       run: dotnet restore
